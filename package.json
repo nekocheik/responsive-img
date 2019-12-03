@@ -1,0 +1,22 @@
+{
+  "name": "responsive-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekocheik/responsive-img.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekocheik/responsive-img/issues"
+  },
+  "homepage": "https://github.com/nekocheik/responsive-img#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}

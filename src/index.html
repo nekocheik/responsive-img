@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  .image-at-begin{
+    max-width: 100vw;
+    max-height: 85vh;
+    margin: auto;
+    display: block;
+  }
+  img {
+    max-height: 100vh ;
+    max-width: 33vw;
+  }
+  .srcstet__classique_pourcentage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+</style>
+<link rel="stylesheet" href="">
+<body>
+  <div>
+    <h1>image de base</h1>
+    <img class="image-at-begin" 
+    src="./assets/image-test-base.jpg" >
+  </div>
+  <div class="srcstet__classique">
+      <h1>image simple srcstet</h1>
+      <img class="image-at-begin" 
+      srcset="
+      ./assets/image-test-base.jpg 1599w, ./assets/image-test-desktop.png 600w, ./assets/image-test-mobile.png 321w
+      "
+      src="./assets/image-test-base.jpg" alt="">
+  </div>
+
+  <h1>image srcset collumn</h1>
+  <div class="srcstet__classique_pourcentage">
+      <img class="" 
+      srcset="
+      ./assets/image-test-base.jpg 1599w, ./assets/image-test-desktop.png 600w, ./assets/image-test-mobile.png 321w
+      "
+      sizes="33vw"
+      >
+      <img class="" 
+      srcset="
+      ./assets/image-test-base.jpg 1599w, ./assets/image-test-desktop.png 600w, ./assets/image-test-mobile.png 321w"
+      sizes="33vw"
+      >
+      <img class="" 
+      srcset="
+      ./assets/image-test-base.jpg 1599w, ./assets/image-test-desktop.png 600w, ./assets/image-test-mobile.png 321w"
+      sizes="33vw"
+      >
+  </div>
+
+</body>
+</html>
