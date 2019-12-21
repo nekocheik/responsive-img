@@ -1,0 +1,8 @@
+Copie de test.xd
+README.md
+dist
+lstxt.txt
+node_modules
+package-lock.json
+package.json
+src
