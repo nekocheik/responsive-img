@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nekocheik/responsive-img#readme",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
